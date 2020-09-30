@@ -23,7 +23,7 @@ Icon = [0,0,0]
 
 try: os.makedirs("./steam_img/backgrounds/") 
 except: ()
-try:  os.makedirs("./steam_img/covers/")
+try: os.makedirs("./steam_img/covers/")
 except: ()
 try: os.makedirs("./steam_img/headers/")
 except: ()
