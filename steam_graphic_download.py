@@ -21,14 +21,16 @@ Background = [0,0,0]
 Cover = [0,0,0]
 Icon = [0,0,0]
 
-try:
-    os.makedirs("./steam_img/backgrounds/")
-    os.makedirs("./steam_img/covers/")
-    os.makedirs("./steam_img/headers/")
-    os.makedirs("./steam_img/icons/")
-    os.makedirs("./steam_img/logos/")
-except:
-    ()
+try: os.makedirs("./steam_img/backgrounds/") 
+except: ()
+try:  os.makedirs("./steam_img/covers/")
+except: ()
+try: os.makedirs("./steam_img/headers/")
+except: ()
+try: os.makedirs("./steam_img/icons/")
+except: ()
+try: os.makedirs("./steam_img/logos/")
+except: ()
     
 print("\033[1;33;40m       | Game ID |                                                    Game Name |       Done | Downloaded |    Missing |")
 
